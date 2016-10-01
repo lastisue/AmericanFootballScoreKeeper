@@ -3,11 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -22,7 +20,7 @@
                 android:gravity="center"
                 android:padding="4dp"
                 android:paddingTop="16dp"
-                android:text="Team A"
+                android:text="@string/fb_team_a"
                 android:textColor="#616161"
                 android:textSize="14sp" />
 
@@ -35,7 +33,7 @@
                 android:paddingBottom="24dp"
                 android:text="0"
                 android:textColor="#000000"
-                android:textSize="56dp" />
+                android:textSize="56sp" />
 
             <Button
                 android:id="@+id/add_touchdownA"
@@ -45,7 +43,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addTouchdownForTeamA"
-                android:text="Touchdown" />
+                android:text="@string/touchdown" />
 
             <Button
                 android:id="@+id/add_extrapointA"
@@ -55,7 +53,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addExtraPointForTeamA"
-                android:text="Extra Point" />
+                android:text="@string/extra_point" />
 
             <Button
                 android:id="@+id/add_fieldgoalA"
@@ -65,7 +63,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addFieldGoalForTeamA"
-                android:text="Field Goal" />
+                android:text="@string/field_goal" />
 
             <Button
                 android:id="@+id/add_safetyA"
@@ -75,7 +73,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addSafetyForTeamA"
-                android:text="Safety" />
+                android:text="@string/safety" />
 
         </LinearLayout>
 
@@ -83,7 +81,7 @@
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:layout_marginTop="16dp"
-            android:background="@android:color/darker_gray"></View>
+            android:background="@android:color/darker_gray" />
 
 
         <LinearLayout
@@ -99,7 +97,7 @@
                 android:gravity="center"
                 android:padding="4dp"
                 android:paddingTop="16dp"
-                android:text="Team B"
+                android:text="@string/fb_team_b"
                 android:textColor="#616161"
                 android:textSize="14sp" />
 
@@ -112,7 +110,7 @@
                 android:paddingBottom="24dp"
                 android:text="0"
                 android:textColor="#000000"
-                android:textSize="56dp" />
+                android:textSize="56sp" />
 
             <Button
                 android:id="@+id/add_touchdownB"
@@ -168,6 +166,6 @@
         android:layout_marginLeft="22dp"
         android:layout_marginRight="22dp"
         android:onClick="resetScore"
-        android:text="RESET"></Button>
+        android:text="RESET" />
 
 </RelativeLayout>
