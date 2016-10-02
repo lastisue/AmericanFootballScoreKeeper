@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds six points to the score for Team A.
      */
     public void addTouchdownForTeamA(View v) {
-        scoreTeamA = scoreTeamA + 6;
+        scoreTeamA += 6;
         displayForTeamA(scoreTeamA);
     }
 
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds six points to the score for Team B.
      */
     public void addTouchdownForTeamB(View v) {
-        scoreTeamB = scoreTeamB + 6;
+        scoreTeamB += 6;
         displayForTeamB(scoreTeamB);
     }
 
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds one points to the score for Team A.
      */
     public void addExtraPointForTeamA(View v) {
-        scoreTeamA = scoreTeamA + 1;
+        scoreTeamA += 1;
         displayForTeamA(scoreTeamA);
     }
 
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds one point to the score for Team B.
      */
     public void addExtraPointForTeamB(View v) {
-        scoreTeamB = scoreTeamB + 1;
+        scoreTeamB += 1;
         displayForTeamB(scoreTeamB);
     }
 
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds three points to the score for Team A.
      */
     public void addFieldGoalForTeamA(View v) {
-        scoreTeamA = scoreTeamA + 3;
+        scoreTeamA += 3;
         displayForTeamA(scoreTeamA);
     }
 
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds three points to the score for Team B.
      */
     public void addFieldGoalForTeamB(View v) {
-        scoreTeamB = scoreTeamB + 3;
+        scoreTeamB += 3;
         displayForTeamB(scoreTeamB);
     }
 
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds two points to the score for Team A.
      */
     public void addSafetyForTeamA(View v) {
-        scoreTeamA = scoreTeamA + 2;
+        scoreTeamA += 2;
         displayForTeamA(scoreTeamA);
     }
 
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds two points to the score for Team B.
      */
     public void addSafetyForTeamB(View v) {
-        scoreTeamB = scoreTeamB + 2;
+        scoreTeamB += 2;
         displayForTeamB(scoreTeamB);
     }
 
@@ -113,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
-
 
     /**
      * Displays the given score for Team A.

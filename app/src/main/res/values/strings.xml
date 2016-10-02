@@ -7,4 +7,5 @@
     <string name="extra_point">EXTRA POINT</string>
     <string name="field_goal">FIELD GOAL</string>
     <string name="safety">SAFETY</string>
+    <string name="reset">RESET</string>
 </resources>

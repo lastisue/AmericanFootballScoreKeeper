@@ -21,7 +21,7 @@
                 android:padding="4dp"
                 android:paddingTop="16dp"
                 android:text="@string/fb_team_a"
-                android:textColor="#616161"
+                android:textColor="@color/teamNameColor"
                 android:textSize="14sp" />
 
             <TextView
@@ -32,48 +32,32 @@
                 android:gravity="center"
                 android:paddingBottom="24dp"
                 android:text="0"
-                android:textColor="#000000"
+                android:textColor="@color/teamScoreColor"
                 android:textSize="56sp" />
 
             <Button
                 android:id="@+id/add_touchdownA"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="addTouchdownForTeamA"
-                android:text="@string/touchdown" />
+                android:text="@string/touchdown"
+                style="@style/mattieCustomButton" />
 
             <Button
                 android:id="@+id/add_extrapointA"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="addExtraPointForTeamA"
-                android:text="@string/extra_point" />
+                android:text="@string/extra_point"
+                style="@style/mattieCustomButton" />
 
             <Button
                 android:id="@+id/add_fieldgoalA"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="addFieldGoalForTeamA"
-                android:text="@string/field_goal" />
+                android:text="@string/field_goal"
+                style="@style/mattieCustomButton" />
 
             <Button
                 android:id="@+id/add_safetyA"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="addSafetyForTeamA"
-                android:text="@string/safety" />
+                android:text="@string/safety"
+                style="@style/mattieCustomButton" />
 
         </LinearLayout>
 
@@ -82,7 +66,6 @@
             android:layout_height="match_parent"
             android:layout_marginTop="16dp"
             android:background="@android:color/darker_gray" />
-
 
         <LinearLayout
             android:layout_width="0dp"
@@ -98,7 +81,7 @@
                 android:padding="4dp"
                 android:paddingTop="16dp"
                 android:text="@string/fb_team_b"
-                android:textColor="#616161"
+                android:textColor="@color/teamNameColor"
                 android:textSize="14sp" />
 
             <TextView
@@ -109,63 +92,40 @@
                 android:gravity="center"
                 android:paddingBottom="24dp"
                 android:text="0"
-                android:textColor="#000000"
+                android:textColor="@color/teamScoreColor"
                 android:textSize="56sp" />
 
             <Button
                 android:id="@+id/add_touchdownB"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="addTouchdownForTeamB"
-                android:text="Touchdown" />
+                android:text="@string/touchdown"
+                style="@style/mattieCustomButton" />
 
             <Button
                 android:id="@+id/add_extrapointB"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="addExtraPointForTeamB"
-                android:text="Extra Point" />
+                android:text="@string/extra_point"
+                style="@style/mattieCustomButton" />
 
             <Button
                 android:id="@+id/add_fieldgoalB"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="addFieldGoalForTeamB"
-                android:text="Field Goal" />
+                android:text="@string/field_goal"
+                style="@style/mattieCustomButton" />
 
             <Button
                 android:id="@+id/add_safetyB"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="addSafetyForTeamB"
-                android:text="Safety" />
+                android:text="@string/safety"
+                style="@style/mattieCustomButton" />
 
         </LinearLayout>
 
     </LinearLayout>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="@dimen/activity_horizontal_margin"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginRight="22dp"
         android:onClick="resetScore"
-        android:text="RESET" />
+        android:text="@string/reset"
+        style="@style/resetCustomButton" />
 
 </RelativeLayout>
