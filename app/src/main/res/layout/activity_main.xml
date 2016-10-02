@@ -31,7 +31,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:paddingBottom="24dp"
-                android:text="0"
+                android:text="@string/starting_score"
                 android:textColor="@color/teamScoreColor"
                 android:textSize="56sp" />
 
@@ -91,7 +91,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:paddingBottom="24dp"
-                android:text="0"
+                android:text="@string/starting_score"
                 android:textColor="@color/teamScoreColor"
                 android:textSize="56sp" />
 

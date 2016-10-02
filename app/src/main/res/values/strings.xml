@@ -8,4 +8,5 @@
     <string name="field_goal">FIELD GOAL</string>
     <string name="safety">SAFETY</string>
     <string name="reset">RESET</string>
+    <string name="starting_score">0</string>
 </resources>
